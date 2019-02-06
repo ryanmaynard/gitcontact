@@ -30,7 +30,7 @@ repo="$2"
 header 'Email on GitHub'
 if [ -z $GH_EMAIL_TOKEN ]; then
     fade "   Github requires authenticated API requests to retrieve the email. See: https://git.io/vxctz"
-    fade "   To enable, open https://github.com/settings/tokens/new?description=github-email …"
+    fade "   To enable, open https://github.com/settings/tokens/new?description=gitcontact …"
     fade "   Keep the checkboxes unchecked, hit 'Generate token', copy the token, then run this in your shell:"
     fade "       export GH_EMAIL_TOKEN=<token>"
     fade "   You'll also want to add that line to your shell configuration (e.g. .bashrc)"
