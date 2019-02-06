@@ -1,6 +1,6 @@
 {
     "name"       : "gitcontact",
-    "version"    : "0.1.1",
+    "version"    : "1.0.0",
     "description": "Attempts to retrieve a github user's email",
     "bin"        : {
       "gitcontact": "gitcontact.sh"

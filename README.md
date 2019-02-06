@@ -2,6 +2,8 @@
 
 Attempts to find a github user's email
 
+![demo_image](demo.png)
+
 ### Installation
 
 `npm install -g gitcontact`
