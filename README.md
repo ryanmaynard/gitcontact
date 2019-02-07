@@ -8,6 +8,12 @@ Attempts to find a github user's email
 
 `npm install -g gitcontact`
 
+In order to use the github API, you will need to generate an API token. 
+To do so, open `https://github.com/settings/tokens/new?description=gitcontact`.
+Leave the boxes unchecked and generate a token. 
+Afterward, you will need to run
+`export GH_EMAIL_TOKEN=<token>`. You will also need to add it to your .bashrc or .bash_profile so that it loads in subsequent sessions. 
+
 
 ###  Usage
 
